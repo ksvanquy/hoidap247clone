@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoidap247 Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <!-- Header -->
+        <header class="flex flex-col sm:flex-row sm:items-center justify-between bg-white p-4 shadow gap-4">
+            <!-- Logo -->
+            <div class="flex items-center justify-between w-full sm:w-auto">
+                <h1 class="text-2xl font-bold">
+                    <span class="text-yellow-400">H</span><span class="text-[#4a7b8d]">oidap247</span><span
+                        class="text-xs text-gray-500">.com</span>
+                </h1>
+            </div>
+
+            <!-- Search box -->
+            <div class="flex-1 flex items-center gap-2">
+                <input type="text" placeholder="Câu hỏi của bạn là gì?"
+                    class="w-full flex-1 rounded-md border border-gray-300 bg-green-50 px-4 py-2 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-green-300" />
+                <button
+                    class="shrink-0 rounded-md bg-yellow-500 px-4 py-2 text-sm font-semibold text-white hover:bg-yellow-600">Tìm</button>
+            </div>
+
+            <!-- Icons -->
+            <div class="flex items-center gap-3">
+                <div class="relative">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1380/1380338.png" class="h-6 w-6" alt="Messages" />
+                    <span class="absolute -top-1 -right-1 rounded-full bg-red-500 px-1 text-xs text-white">1</span>
+                </div>
+                <img src="https://cdn-icons-png.flaticon.com/512/1827/1827392.png" class="h-6 w-6"
+                    alt="Notifications" />
+                <div class="flex items-center gap-1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" class="h-6 w-6 rounded-full border"
+                        alt="User" />
+                    <span class="text-sm text-gray-700 hidden sm:inline">ksvanquy1</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Danh mục tab ngang cho mobile -->
+        <div class="mt-4 overflow-x-auto whitespace-nowrap sm:hidden">
+            <div class="flex gap-2 pb-2 border-b border-gray-300">
+                <button class="shrink-0 rounded-full bg-yellow-400 px-3 py-1 text-sm font-medium">Tất cả</button>
+                <button class="shrink-0 rounded-full px-3 py-1 text-sm hover:bg-gray-200">Toán</button>
+                <button class="shrink-0 rounded-full px-3 py-1 text-sm hover:bg-gray-200">Lý</button>
+                <button class="shrink-0 rounded-full px-3 py-1 text-sm hover:bg-gray-200">Hóa</button>
+                <button class="shrink-0 rounded-full px-3 py-1 text-sm hover:bg-gray-200">Anh</button>
+                <button class="shrink-0 rounded-full px-3 py-1 text-sm hover:bg-gray-200">Việt</button>
+                <button class="shrink-0 rounded-full px-3 py-1 text-sm hover:bg-gray-200">Khác</button>
+            </div>
+        </div>
+
+        <!-- Bộ lọc -->
+        <div class="my-4 flex flex-col sm:flex-row items-start sm:items-center gap-3">
+            <select class="w-full sm:w-auto rounded border px-2 py-1">
+                <option selected disabled>Chọn lớp</option>
+                <option>Lớp 1</option>
+                <option>Lớp 2</option>
+                <option>Lớp 3</option>
+                <option>Lớp 4</option>
+                <option>Lớp 5</option>
+                <option>Lớp 6</option>
+                <option>Lớp 7</option>
+                <option>Lớp 8</option>
+                <option>Lớp 9</option>
+                <option>Lớp 10</option>
+                <option>Lớp 11</option>
+                <option>Lớp 12</option>
+                <option>Khác</option>
+            </select>
+            <select class="w-full sm:w-auto rounded border px-2 py-1">
+                <option selected>Trạng thái câu hỏi</option>
+                <option>Tất cả</option>
+                <option>Đã trả lời</option>
+                <option>Chưa trả lời</option>
+                <option>Lần đầu hỏi</option>
+            </select>
+            <button class="rounded bg-green-500 px-4 py-2 text-white">+1 câu hỏi mới nhất</button>
+        </div>
+
+        <!-- Câu hỏi mới -->
+        <section class="space-y-4">
+            <div class="rounded bg-white p-4 shadow">
+                <p class="text-sm text-gray-600">Tiếng Việt · L5 · 20d · 4 phút trước 👤</p>
+                <p class="mt-2">Giúc mk a mk chớ sao và hay nhấtttttt</p>
+                <button class="mt-2 text-blue-500">Trả lời</button>
+            </div>
+            <div class="rounded bg-white p-4 shadow">
+                <p class="text-sm text-gray-600">Toán Học · L7 · 10d · 6 phút trước</p>
+                <p class="mt-2">(x+5+1)(x+1) giúc mk nha các bn</p>
+                <button class="mt-2 text-blue-500">Trả lời</button>
+            </div>
+            <div class="rounded bg-white p-4 shadow">
+                <p class="text-sm text-gray-600">Toán Học · L6 · 10d · 6 phút trước 👤</p>
+                <p class="mt-2">cứu với soooooooooooooooooooos</p>
+                <button class="mt-2 text-blue-500">Trả lời</button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-10 text-center text-xs text-gray-500 py-6">
+            © 2025 Hoidap247.com - Thiết kế bởi bạn. Giấy phép thiết lập mạng xã hội số 331/GP-BTTTT.
+        </footer>
+    </div>
+</body>
+
+</html>

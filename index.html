@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoidap247 Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto px-12">
+        <!-- Header -->
+        <header class="flex items-center justify-between bg-white px-4 py-2 shadow">
+            <!-- Logo -->
+            <div class="flex items-center space-x-4">
+                <h1 class="text-2xl font-bold">
+                    <span class="text-yellow-400">H</span>
+                    <span class="text-[#4a7b8d]">oidap247</span>
+                    <span class="text-xs text-gray-500">.com</span>
+                </h1>
+            </div>
+
+            <!-- Search box -->
+            <div class="mx-4 flex flex-1 items-center">
+                <input type="text" placeholder="Câu hỏi của bạn là gì?"
+                    class="flex-1 rounded-l-md border border-gray-200 bg-green-50 px-4 py-2 text-gray-700 focus:ring-2 focus:ring-green-300 focus:outline-none" />
+                <button
+                    class="rounded-r-md bg-yellow-500 px-5 py-2 font-semibold text-white hover:bg-yellow-600">Tìm</button>
+            </div>
+
+            <!-- Icons and user -->
+            <div class="flex items-center space-x-4">
+                <!-- Message icon -->
+                <div class="relative">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1380/1380338.png" class="h-6 w-6" alt="Messages" />
+                    <span class="absolute -top-2 -right-2 rounded-full bg-red-500 px-1 text-xs text-white">1</span>
+                </div>
+                <!-- Notification icon -->
+                <img src="https://cdn-icons-png.flaticon.com/512/1827/1827392.png" class="h-6 w-6"
+                    alt="Notifications" />
+                <!-- User avatar -->
+                <div class="flex items-center space-x-1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" class="h-6 w-6 rounded-full border"
+                        alt="User" />
+                    <span class="text-sm text-gray-700">ksvanquy1</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Body layout -->
+        <main class="flex">
+            <!-- Left sidebar -->
+            <aside class="w-60 space-y-1 bg-gray-100 p-3">
+                <a href="#" class="flex items-center space-x-2 rounded bg-yellow-400 px-3 py-2 font-medium text-black">
+                    <span>🎛️</span><span>Tất cả</span>
+                </a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>🧮</span><span>Toán
+                        Học</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>🧲</span><span>Vật
+                        Lý</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>⚗️</span><span>Hóa
+                        Học</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>📘</span><span>Tiếng
+                        Anh</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>📚</span><span>Tiếng
+                        Việt</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>🧬</span><span>Sinh
+                        Học</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>📖</span><span>Lịch
+                        Sử</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>🌍</span><span>Địa
+                        Lý</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>📄</span><span>GDCD</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>💻</span><span>Tin
+                        Học</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>🔧</span><span>Công
+                        Nghệ</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>🎵</span><span>Nhạc
+                        Họa</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>🧪</span><span>KHTN</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>⚖️</span><span>Sử &
+                        Địa</span></a>
+                <a href="#"
+                    class="flex items-center space-x-2 rounded px-3 py-2 hover:bg-gray-200"><span>📦</span><span>Khác</span></a>
+            </aside>
+
+            <!-- Main content -->
+            <section class="flex-1 p-6">
+                <div class="rounded bg-white p-6 text-center text-2xl font-bold shadow">
+                    4810970 câu hỏi đã được trả lời
+                    <div class="mt-4">
+                        <button class="rounded bg-yellow-400 px-4 py-2">📤 ĐẶT CÂU HỎI</button>
+                    </div>
+                </div>
+
+                <div class="my-4 flex items-center space-x-4">
+                    <select class="rounded border px-2 py-1">
+                        <option selected disabled>Chọn lớp</option>
+                        <option>Lớp 1</option>
+                        <option>Lớp 2</option>
+                        <option>Lớp 3</option>
+                        <option>Lớp 4</option>
+                        <option>Lớp 5</option>
+                        <option>Lớp 6</option>
+                        <option>Lớp 7</option>
+                        <option>Lớp 8</option>
+                        <option>Lớp 9</option>
+                        <option>Lớp 10</option>
+                        <option>Lớp 11</option>
+                        <option>Lớp 12</option>
+                        <option>Khác</option>
+                    </select>
+                    <select class="rounded border px-2 py-1">
+                        <option selected>Trạng thái câu hỏi</option>
+                        <option>Tất cả</option>
+                        <option>Đã trả lời</option>
+                        <option>Chưa trả lời</option>
+                        <option>Lần đầu hỏi</option>
+                    </select>
+                    <button class="rounded bg-green-500 px-4 py-1 text-white">+1 câu hỏi mới nhất</button>
+                </div>
+
+                <!-- Câu hỏi mới -->
+                <div class="space-y-4">
+                    <div class="rounded bg-white p-4 shadow">
+                        <p class="text-sm text-gray-600">Tiếng Việt · L5 · 20d · 4 phút trước 👤</p>
+                        <p class="mt-2">Giúp mk a mk chớ sao và hay nhấtttttt</p>
+                        <button class="mt-2 text-blue-500">Trả lời</button>
+                    </div>
+                    <div class="rounded bg-white p-4 shadow">
+                        <p class="text-sm text-gray-600">Toán Học · L7 · 10d · 6 phút trước</p>
+                        <p class="mt-2">(x+5+1)(x+1) giúp mk nha các bn</p>
+                        <button class="mt-2 text-blue-500">Trả lời</button>
+                    </div>
+                    <div class="rounded bg-white p-4 shadow">
+                        <p class="text-sm text-gray-600">Toán Học · L6 · 10d · 6 phút trước 👤</p>
+                        <p class="mt-2">cứu với soooooooooooooooooooos</p>
+                        <button class="mt-2 text-blue-500">Trả lời</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right user sidebar -->
+            <aside class="w-1/5 space-y-4 border-l bg-white p-4">
+                <!-- User Info Card -->
+                <div class="w-full space-y-4 rounded-lg bg-white p-4 text-sm shadow">
+                    <!-- User info -->
+                    <div class="flex flex-col items-center space-y-2 text-center">
+                        <div class="flex h-16 w-16 items-center justify-center rounded-full bg-gray-200">
+                            <svg class="h-8 w-8 text-gray-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 12c2.7 0 4.9-2.2 4.9-4.9S14.7 2.2 12 2.2 7.1 4.4 7.1 7.1 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.6h19.2v-2.6c0-3.2-6.4-4.8-9.6-4.8z" />
+                            </svg>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="font-semibold text-gray-800">ksvanquy1</span>
+                            <span title="Cảnh báo">
+                                <svg class="h-4 w-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM9 6h2v5H9V6zm0 6h2v2H9v-2z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <span class="text-xs font-medium text-green-600">🟢 Lính mới</span>
+                    </div>
+
+                    <!-- Score and dark mode -->
+                    <div class="space-y-1 text-gray-700">
+                        <div>Trả lời hay nhất <span class="font-semibold text-yellow-500">🏅 0</span></div>
+                        <div>Điểm: <span class="font-bold text-black">50</span></div>
+                        <div class="text-xs text-gray-500">Cần thêm <span class="font-semibold text-black">50
+                                điểm</span> để thăng
+                            hạng</div>
+                        <div class="flex items-center gap-1 text-xs text-green-600">
+                            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-4l5-5-1.4-1.4L9 11.2 7.4 9.6 6 11l3 3z" />
+                            </svg>
+                            Quan tâm
+                        </div>
+
+                        <div class="flex items-center justify-between pt-2 text-gray-700">
+                            <span>Giao diện tối</span>
+                            <label class="inline-flex cursor-pointer items-center">
+                                <input type="checkbox" class="peer sr-only" />
+                                <div
+                                    class="peer relative h-5 w-10 rounded-full bg-gray-300 transition peer-checked:bg-green-500">
+                                    <div
+                                        class="absolute top-0.5 left-1 h-4 w-4 rounded-full bg-white transition peer-checked:translate-x-5">
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bulletin Card -->
+                <div class="w-full rounded-lg bg-white p-4 text-sm shadow">
+                    <!-- Bulletin -->
+                    <h3 class="text-center text-base font-semibold text-gray-800 mb-3">📋 Bảng tin</h3>
+                    <hr class="mb-3 border-t border-gray-300" />
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex items-center gap-2 text-rose-500">
+                            <div class="flex h-6 w-6 items-center justify-center rounded-full bg-rose-100">
+                                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M4 3h12a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm1 2v10h10V5H5z" />
+                                </svg>
+                            </div>
+                            Discord Hoidap247
+                        </li>
+                        <li class="flex items-center gap-2 text-rose-500">
+                            <div class="flex h-6 w-6 items-center justify-center rounded-full bg-rose-100">
+                                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M10 2a8 8 0 00-8 8v8h8v-8H4V9.5A6 6 0 0110 4a6 6 0 016 5.5V10h-6v8h8v-8a8 8 0 00-8-8z" />
+                                </svg>
+                            </div>
+                            Đại sứ Văn Hóa Đọc
+                        </li>
+                        <li class="flex items-center gap-2 text-rose-500">
+                            <div class="flex h-6 w-6 items-center justify-center rounded-full bg-rose-100">
+                                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M5 3a1 1 0 00-1 1v12l5-3 5 3V4a1 1 0 00-1-1H5z" />
+                                </svg>
+                            </div>
+                            Gửi đề về Hoidap247
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+        </main>
+        <footer class="bg-[#4a7b8d] text-white text-sm mt-8 border-t">
+            <div class="bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')]">
+                <div class="max-w-7xl mx-auto px-4 py-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Cột 1: Logo và thông tin -->
+                    <div>
+                        <h2 class="text-2xl font-bold mb-2"><span class="text-yellow-300">H</span>oidap247<span
+                                class="text-sm">.com</span></h2>
+                        <p class="mb-4">Cơ quan chủ quản: Công ty Cổ phần Công nghệ Giáo dục Thành Phát</p>
+                        <div class="flex items-center gap-3 mb-4">
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" class="w-6 h-6"
+                                alt="Facebook">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" class="w-6 h-6"
+                                alt="YouTube">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" class="w-6 h-6"
+                                alt="Discord">
+                        </div>
+                        <p class="mb-1">Tải ứng dụng</p>
+                        <div class="flex gap-2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                class="h-10" alt="Google Play">
+                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                                class="h-10" alt="App Store">
+                        </div>
+                    </div>
+
+                    <!-- Cột 2: Liên kết -->
+                    <div>
+                        <ul class="space-y-1">
+                            <li>○ Hướng dẫn sử dụng</li>
+                            <li>○ Điều khoản sử dụng</li>
+                            <li>○ Nội quy hoidap247</li>
+                            <li>○ Góp ý</li>
+                            <li class="flex items-center">○ Sự kiện nóng <span
+                                    class="bg-red-600 text-xs text-white px-1 ml-2 rounded">NEW</span></li>
+                            <li class="flex items-center">○ Kết quả đua top <span
+                                    class="bg-red-600 text-xs text-white px-1 ml-2 rounded">NEW</span></li>
+                            <li class="flex items-center">○ Thông báo <span
+                                    class="bg-red-600 text-xs text-white px-1 ml-2 rounded">NEW</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Cột 3: Liên hệ -->
+                    <div>
+                        <p class="mb-2">📧 <span class="underline">Inbox: m.me/hoidap247online</span></p>
+                        <p>📍 Trụ sở: Tầng 7, Tòa Intracom, số 82 Dịch Vọng Hậu, Cầu Giấy, Hà Nội.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-xs bg-[#467589] py-3">
+                Giấy phép thiết lập mạng xã hội trên mạng số 331/GP-BTTTT do Bộ Thông tin và Truyền thông cấp.
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
